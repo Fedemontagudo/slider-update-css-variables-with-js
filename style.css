@@ -1,0 +1,9 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+.hl {
+  color: var(--base);
+}
