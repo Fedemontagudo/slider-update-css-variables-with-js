@@ -33,12 +33,12 @@
     const inputs = document.querySelectorAll('.controls input')
 
     // ??? Why is this arrow function not working as the traditional one ???
+
     /* handleUpdate = () => {
       console.log(this)
     } */
 
     function handleUpdate() {
-      console.log(this)
       const suffix = this.dataset.sizing || '';
       document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
     }
